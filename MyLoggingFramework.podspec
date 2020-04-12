@@ -9,8 +9,7 @@ Pod::Spec.new do |spec|
   spec.author       = { "Jayant Jaiswal" => "jayant.jaiswal@grabtaxi.com" }
   spec.platform     = :ios, "10.1"
   spec.source       = { :git => 'https://github.com/ethan-hunt-007/MyLoggingFramework.git', :tag => '1.0.0' }
-  spec.source_files = "MyLoggingFramework/."
-  # spec.public_header_files = "Classes/**/*.h"
+  spec.source_files = "MyLoggingFramework"
   spec.swift_version = "5.0.1"
 
 end
