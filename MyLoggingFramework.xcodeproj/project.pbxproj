@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		44C7A8E724430DE300F6DA95 /* MyLoggingFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 44C7A8E524430DE300F6DA95 /* MyLoggingFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		44C7A8EE24430E1500F6DA95 /* TitleLabelView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 44C7A8ED24430E1500F6DA95 /* TitleLabelView.xib */; };
+		44C7A8F2244310D900F6DA95 /* HelloLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44C7A8F1244310D900F6DA95 /* HelloLogger.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -16,6 +17,7 @@
 		44C7A8E524430DE300F6DA95 /* MyLoggingFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyLoggingFramework.h; sourceTree = "<group>"; };
 		44C7A8E624430DE300F6DA95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		44C7A8ED24430E1500F6DA95 /* TitleLabelView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TitleLabelView.xib; sourceTree = "<group>"; };
+		44C7A8F1244310D900F6DA95 /* HelloLogger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloLogger.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,7 @@
 				44C7A8E524430DE300F6DA95 /* MyLoggingFramework.h */,
 				44C7A8E624430DE300F6DA95 /* Info.plist */,
 				44C7A8ED24430E1500F6DA95 /* TitleLabelView.xib */,
+				44C7A8F1244310D900F6DA95 /* HelloLogger.swift */,
 			);
 			path = MyLoggingFramework;
 			sourceTree = "<group>";
@@ -98,6 +101,7 @@
 				TargetAttributes = {
 					44C7A8E124430DE300F6DA95 = {
 						CreatedOnToolsVersion = 11.3;
+						LastSwiftMigration = 1130;
 					};
 				};
 			};
@@ -135,6 +139,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				44C7A8F2244310D900F6DA95 /* HelloLogger.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,6 +269,7 @@
 		44C7A8EB24430DE300F6DA95 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = C9YMA892DM;
@@ -280,6 +286,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.grab.MyLoggingFramework;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -288,6 +295,7 @@
 		44C7A8EC24430DE300F6DA95 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = C9YMA892DM;
