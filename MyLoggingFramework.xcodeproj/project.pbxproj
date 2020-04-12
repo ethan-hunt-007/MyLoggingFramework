@@ -8,12 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		44C7A8E724430DE300F6DA95 /* MyLoggingFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 44C7A8E524430DE300F6DA95 /* MyLoggingFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		44C7A8EE24430E1500F6DA95 /* TitleLabelView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 44C7A8ED24430E1500F6DA95 /* TitleLabelView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		44C7A8E224430DE300F6DA95 /* MyLoggingFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MyLoggingFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		44C7A8E524430DE300F6DA95 /* MyLoggingFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyLoggingFramework.h; sourceTree = "<group>"; };
 		44C7A8E624430DE300F6DA95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		44C7A8ED24430E1500F6DA95 /* TitleLabelView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TitleLabelView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +50,7 @@
 			children = (
 				44C7A8E524430DE300F6DA95 /* MyLoggingFramework.h */,
 				44C7A8E624430DE300F6DA95 /* Info.plist */,
+				44C7A8ED24430E1500F6DA95 /* TitleLabelView.xib */,
 			);
 			path = MyLoggingFramework;
 			sourceTree = "<group>";
@@ -121,6 +124,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				44C7A8EE24430E1500F6DA95 /* TitleLabelView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
